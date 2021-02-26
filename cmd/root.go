@@ -10,7 +10,7 @@ import (
 var rootCmd = &cobra.Command{
 	Use:   "haversine-cli",
 	Short: "cli for harversine formula",
-	Run: func(cmd *cobra.Command, args []string) { },
+	// Run: func(cmd *cobra.Command, args []string) { },
 }
 
 // Execute adds all child commands to the root command and sets flags appropriately.
