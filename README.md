@@ -32,6 +32,6 @@ Usage:
 
 Flags:
   -h, --help         help for calc
-  -o, --out string   output format (km, m, cm) (default 'm') (default "m")
+  -o, --out string   output format (km, m, cm) (default "m")
   -s, --short        prints only the value
 ```

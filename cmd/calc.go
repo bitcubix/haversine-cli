@@ -1,8 +1,9 @@
 package cmd
 
 import (
-	"fmt"
 	"github.com/bitcubix/haversine-cli/haversine"
+
+	"fmt"
 	"log"
 	"os"
 	"strconv"
@@ -58,6 +59,6 @@ var calcCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(calcCmd)
-	calcCmd.Flags().StringVarP(&out, "out", "o", "m", "output format (km, m, cm) (default 'm')")
+	calcCmd.Flags().StringVarP(&out, "out", "o", "m", "output format (km, m, cm)")
 	calcCmd.Flags().BoolVarP(&short, "short", "s", false, "prints only the value")
 }
